@@ -1,4 +1,4 @@
-package br.com.exercicio;
+//package br.com.exercicio;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,11 +12,11 @@ import java.util.TreeMap;
 
 //	TAREFA 1:
 //ler no console o nome de pessoas separado por virgula(ok)
-//seperar os valores lidos, guardar em um tipo de vari·vel, fazer a ordenaÁ„o e imprimir no console.
+//seperar os valores lidos, guardar em um tipo de vari√°vel, fazer a ordena√ß√£o e imprimir no console.
 //-recomendado SPLIT
 //
 //	TAREFA 2:
-//ler no console o nome traÁo sexo(nome - sexo);
+//ler no console o nome tra√ßo sexo(nome - sexo);
 //	ex: luana-F, rodrigo-M....
 //separar por grupo masculino e feminino 
 //imprimir no console com os grupos separados.
@@ -41,7 +41,7 @@ public class Tarefa_colecoes {
 	private static void listaDeNomesDesordenados() {
 		
 		System.out.println("*****Lista dos nomes desordenados: ***** ");
-		List<String> nomes = Arrays.asList("JosuÈ Magalh„es", "Lucas Maia", "Quemuel Branch", "Carla de moura", "Rebeca Fernandes", "Jo„o Carius");
+		List<String> nomes = Arrays.asList("Josu√© Magalh√£es", "Lucas Maia", "Quemuel Branch", "Carla de moura", "Rebeca Fernandes", "Jo√£o Carius");
 		
 		
 		for(int i=0; i<nomes.size(); i++) {
@@ -54,16 +54,16 @@ public class Tarefa_colecoes {
 
 	private static void listaDeNomes() {
 		System.out.println("");
-		Map<Integer, String> lista = new TreeMap<>(); // J· ordenada
+		Map<Integer, String> lista = new TreeMap<>(); // J√° ordenada
 		
 		System.out.println("*****Lista dos nomes ordenados: ***** ");
 
-		lista.put(4, "JosuÈ Magalh„es");
+		lista.put(4, "Josu√© Magalh√£es");
 		lista.put(2, "Lucas Maia");
 		lista.put(5, "Quemuel Branch");
 		lista.put(1, "Carla de moura");
 		lista.put(6, "Rebeca Fernandes");
-		lista.put(3, "Jo„o Carius");
+		lista.put(3, "Jo√£o Carius");
 
 		System.out.println(lista);
 
@@ -76,12 +76,12 @@ public class Tarefa_colecoes {
 
 		Map<Integer, String> pessoas = new TreeMap<>();
 
-		pessoas.put(4, "JosuÈ Magalh„es - M");
+		pessoas.put(4, "Josu√© Magalh√£es - M");
 		pessoas.put(2, "Lucas Maia - M");
 		pessoas.put(5, "Quemuel Branch - M");
 		pessoas.put(1, "Carla de moura - F");
 		pessoas.put(6, "Rebeca Fernandes - F");
-		pessoas.put(3, "Jo„o Carius - M");
+		pessoas.put(3, "Jo√£o Carius - M");
 
 		for (String value : pessoas.values()) {
 			System.out.println(value);
@@ -93,12 +93,12 @@ public class Tarefa_colecoes {
 	private static void divisaoDosGrupos() {
 		System.out.println("******Divisao Dos Grupos masculino e feminino******");	
 		
-		sexo.put( "JosuÈ Magalh„es", " M");
+		sexo.put( "Josu√© Magalh√£es", " M");
 		sexo.put( "Lucas Maia", " M");
 		sexo.put( "Quemuel Branch", " M");
 		sexo.put( "Carla de moura", " F");
 		sexo.put( "Rebeca Fernandes", " F");
-		sexo.put( "Jo„o Carius",  " M");
+		sexo.put( "Jo√£o Carius",  " M");
 		
 		System.out.println(sexo);
 
